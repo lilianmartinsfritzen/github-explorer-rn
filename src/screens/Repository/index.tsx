@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRoute } from '@react-navigation/core';
+import { useRoute } from '@react-navigation/native';
 import { Linking } from 'react-native';
 import { useRepositories } from '../../hooks/useRepositories';
 
