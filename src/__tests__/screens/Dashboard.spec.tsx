@@ -9,7 +9,7 @@ import { Dashboard } from '../../screens/Dashboard';
 
 const mockedNavigate = jest.fn()
 
-jest.mock('@react-navigation/core', () => ({
+jest.mock('@react-navigation/native', () => ({
   useNavigation: () => ({
     navigate: mockedNavigate
   })
