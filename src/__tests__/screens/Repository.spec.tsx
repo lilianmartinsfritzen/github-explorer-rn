@@ -5,7 +5,7 @@ import { render, fireEvent } from '@testing-library/react-native';
 import { Repository } from '../../screens/Repository';
 import { ProvidersWrapper } from '../../../jest-utils/wrapper';
 
-jest.mock('@react-navigation/core', () => ({
+jest.mock('@react-navigation/native', () => ({
   useRoute: () => ({
     params: {
       repositoryId: 0
